@@ -48,6 +48,9 @@ export const LiveVerification: React.FC<LiveVerificationProps> = ({
         setStream(mediaStream);
         setCameraActive(true);
         setStatusText('Analizando flujo de video en vivo...');
+      } else {
+        // Detener flujo si el componente se desmontó mientras se aceptaba el permiso
+        mediaStream.getTracks().forEach(track => track.stop());
       }
     } catch (err) {
       console.error('Error al iniciar la cámara:', err);
