@@ -1,0 +1,41 @@
+name: Documentation
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'README.md'
+      - 'AGENTS.md'
+  push:
+    branches: [develop, main]
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'README.md'
+      - 'AGENTS.md'
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    name: Build documentation
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install MkDocs
+        run: pip install mkdocs mkdocs-material pymdown-extensions
+
+      - name: Check metadata
+        run: python scripts/check_docs_metadata.py
+
+      - name: Build docs
+        run: mkdocs build --strict

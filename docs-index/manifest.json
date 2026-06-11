@@ -1,0 +1,612 @@
+[
+  {
+    "path": "docs/index.md",
+    "title": "Inicio",
+    "size": 526
+  },
+  {
+    "path": "docs/GUIDE.md",
+    "title": "Guía de uso de la plantilla",
+    "size": 1050
+  },
+  {
+    "path": "docs/MOC.md",
+    "title": "Mapa de contenido",
+    "size": 880
+  },
+  {
+    "path": "docs/00-init.md",
+    "title": "Inicio del proyecto",
+    "size": 613
+  },
+  {
+    "path": "docs/01-vision.md",
+    "title": "Visión del producto",
+    "size": 658
+  },
+  {
+    "path": "docs/02-scope.md",
+    "title": "Alcance",
+    "size": 483
+  },
+  {
+    "path": "docs/03-project-context.md",
+    "title": "Contexto del proyecto",
+    "size": 545
+  },
+  {
+    "path": "docs/04-srs.md",
+    "title": "SRS",
+    "size": 945
+  },
+  {
+    "path": "docs/05-backlog.md",
+    "title": "Backlog",
+    "size": 619
+  },
+  {
+    "path": "docs/06-wbs.md",
+    "title": "WBS",
+    "size": 645
+  },
+  {
+    "path": "docs/07-implementation-brief.md",
+    "title": "Implementation Brief",
+    "size": 599
+  },
+  {
+    "path": "docs/08-functional-spec.md",
+    "title": "Especificación funcional",
+    "size": 456
+  },
+  {
+    "path": "docs/09-technical-architecture.md",
+    "title": "Arquitectura técnica",
+    "size": 705
+  },
+  {
+    "path": "docs/10-data-model.md",
+    "title": "Modelo de datos",
+    "size": 488
+  },
+  {
+    "path": "docs/11-api-contracts.md",
+    "title": "Contratos API",
+    "size": 588
+  },
+  {
+    "path": "docs/12-security-model.md",
+    "title": "Modelo de seguridad",
+    "size": 712
+  },
+  {
+    "path": "docs/13-access-matrix.md",
+    "title": "Matriz de accesos",
+    "size": 616
+  },
+  {
+    "path": "docs/14-compliance.md",
+    "title": "Cumplimiento",
+    "size": 623
+  },
+  {
+    "path": "docs/15-environments.md",
+    "title": "Entornos",
+    "size": 551
+  },
+  {
+    "path": "docs/16-deployment.md",
+    "title": "Despliegue",
+    "size": 480
+  },
+  {
+    "path": "docs/17-testing-strategy.md",
+    "title": "Estrategia de pruebas",
+    "size": 250
+  },
+  {
+    "path": "docs/18-observability.md",
+    "title": "Observabilidad",
+    "size": 432
+  },
+  {
+    "path": "docs/19-operations-runbook.md",
+    "title": "Runbook operativo",
+    "size": 447
+  },
+  {
+    "path": "docs/20-troubleshooting.md",
+    "title": "Troubleshooting",
+    "size": 370
+  },
+  {
+    "path": "docs/21-glossary.md",
+    "title": "Glosario",
+    "size": 455
+  },
+  {
+    "path": "docs/api/openapi-standard.md",
+    "title": "Estándar OpenAPI",
+    "size": 677
+  },
+  {
+    "path": "docs/api/api-design-standard.md",
+    "title": "Diseño de APIs",
+    "size": 497
+  },
+  {
+    "path": "docs/api/api-versioning.md",
+    "title": "Versionado de APIs",
+    "size": 313
+  },
+  {
+    "path": "docs/api/api-review-checklist.md",
+    "title": "Checklist API",
+    "size": 351
+  },
+  {
+    "path": "docs/api/json-schema-standard.md",
+    "title": "JSON Schema",
+    "size": 332
+  },
+  {
+    "path": "docs/api/asyncapi-standard.md",
+    "title": "AsyncAPI",
+    "size": 359
+  },
+  {
+    "path": "docs/design/design-principles.md",
+    "title": "Principios de diseño",
+    "size": 521
+  },
+  {
+    "path": "docs/design/design-system.md",
+    "title": "Design System",
+    "size": 554
+  },
+  {
+    "path": "docs/design/forms-standard.md",
+    "title": "Estándar de formularios",
+    "size": 401
+  },
+  {
+    "path": "docs/design/error-messages-standard.md",
+    "title": "Mensajes de error",
+    "size": 379
+  },
+  {
+    "path": "docs/accessibility/accessibility-policy.md",
+    "title": "Política de accesibilidad",
+    "size": 484
+  },
+  {
+    "path": "docs/accessibility/wcag-2.2-aa-checklist.md",
+    "title": "Checklist WCAG 2.2 AA",
+    "size": 467
+  },
+  {
+    "path": "docs/accessibility/accessibility-testing.md",
+    "title": "Pruebas de accesibilidad",
+    "size": 336
+  },
+  {
+    "path": "docs/coding/programming-standard.md",
+    "title": "Estándar de programación",
+    "size": 439
+  },
+  {
+    "path": "docs/coding/naming-conventions.md",
+    "title": "Convenciones de nombres",
+    "size": 410
+  },
+  {
+    "path": "docs/coding/error-handling.md",
+    "title": "Manejo de errores",
+    "size": 383
+  },
+  {
+    "path": "docs/coding/logging-standard.md",
+    "title": "Logging",
+    "size": 462
+  },
+  {
+    "path": "docs/frontend/frontend-architecture.md",
+    "title": "Arquitectura frontend",
+    "size": 326
+  },
+  {
+    "path": "docs/frontend/component-standard.md",
+    "title": "Componentes frontend",
+    "size": 297
+  },
+  {
+    "path": "docs/backend/backend-architecture.md",
+    "title": "Arquitectura backend",
+    "size": 415
+  },
+  {
+    "path": "docs/backend/validation-standard.md",
+    "title": "Validación backend",
+    "size": 337
+  },
+  {
+    "path": "docs/database/database-standard.md",
+    "title": "Estándar de base de datos",
+    "size": 433
+  },
+  {
+    "path": "docs/database/migration-standard.md",
+    "title": "Migraciones",
+    "size": 296
+  },
+  {
+    "path": "docs/architecture/c4-model.md",
+    "title": "Modelo C4",
+    "size": 292
+  },
+  {
+    "path": "docs/architecture/architecture-principles.md",
+    "title": "Principios de arquitectura",
+    "size": 357
+  },
+  {
+    "path": "docs/testing/testing-strategy.md",
+    "title": "Estrategia de Testing",
+    "size": 1036
+  },
+  {
+    "path": "docs/testing/unit-testing-standard.md",
+    "title": "Pruebas unitarias",
+    "size": 328
+  },
+  {
+    "path": "docs/testing/integration-testing-standard.md",
+    "title": "Pruebas de integración",
+    "size": 352
+  },
+  {
+    "path": "docs/testing/e2e-testing-standard.md",
+    "title": "Pruebas E2E",
+    "size": 299
+  },
+  {
+    "path": "docs/testing/api-contract-testing.md",
+    "title": "API Contract Testing",
+    "size": 329
+  },
+  {
+    "path": "docs/testing/accessibility-testing-standard.md",
+    "title": "Pruebas de accesibilidad",
+    "size": 282
+  },
+  {
+    "path": "docs/testing/performance-testing-standard.md",
+    "title": "Pruebas de performance",
+    "size": 358
+  },
+  {
+    "path": "docs/qa/qa-strategy.md",
+    "title": "Estrategia QA",
+    "size": 849
+  },
+  {
+    "path": "docs/qa/traceability-matrix.md",
+    "title": "Matriz de trazabilidad",
+    "size": 343
+  },
+  {
+    "path": "docs/qa/defect-lifecycle.md",
+    "title": "Ciclo de defectos",
+    "size": 271
+  },
+  {
+    "path": "docs/quality/quality-gates.md",
+    "title": "Quality Gates",
+    "size": 867
+  },
+  {
+    "path": "docs/quality/quality-metrics.md",
+    "title": "Métricas de calidad",
+    "size": 423
+  },
+  {
+    "path": "docs/devsecops/ci-cd-standard.md",
+    "title": "Estándar CI/CD",
+    "size": 740
+  },
+  {
+    "path": "docs/devsecops/pipeline-security.md",
+    "title": "Seguridad de pipeline",
+    "size": 362
+  },
+  {
+    "path": "docs/devsecops/sbom-policy.md",
+    "title": "SBOM",
+    "size": 316
+  },
+  {
+    "path": "docs/devsecops/supply-chain-security.md",
+    "title": "Supply Chain Security",
+    "size": 344
+  },
+  {
+    "path": "docs/release/release-policy.md",
+    "title": "Política de Release",
+    "size": 892
+  },
+  {
+    "path": "docs/release/changelog-standard.md",
+    "title": "Changelog",
+    "size": 291
+  },
+  {
+    "path": "docs/release/rollback-standard.md",
+    "title": "Rollback",
+    "size": 353
+  },
+  {
+    "path": "docs/security/secure-development-policy.md",
+    "title": "Política de desarrollo seguro",
+    "size": 441
+  },
+  {
+    "path": "docs/security/security-requirements.md",
+    "title": "Requisitos de seguridad",
+    "size": 405
+  },
+  {
+    "path": "docs/security/threat-model.md",
+    "title": "Threat Model",
+    "size": 484
+  },
+  {
+    "path": "docs/security/abuse-cases.md",
+    "title": "Casos de abuso",
+    "size": 275
+  },
+  {
+    "path": "docs/security/attack-surface.md",
+    "title": "Superficie de ataque",
+    "size": 293
+  },
+  {
+    "path": "docs/security/secrets-management.md",
+    "title": "Gestión de secretos",
+    "size": 329
+  },
+  {
+    "path": "docs/security/credentials-policy.md",
+    "title": "Política de credenciales",
+    "size": 401
+  },
+  {
+    "path": "docs/security/demo-accounts.md",
+    "title": "Cuentas demo",
+    "size": 738
+  },
+  {
+    "path": "docs/security/asvs-checklist.md",
+    "title": "OWASP ASVS Checklist",
+    "size": 363
+  },
+  {
+    "path": "docs/security/owasp-top-10-mapping.md",
+    "title": "OWASP Top 10 Mapping",
+    "size": 305
+  },
+  {
+    "path": "docs/security/owasp-api-top-10-mapping.md",
+    "title": "OWASP API Top 10 Mapping",
+    "size": 311
+  },
+  {
+    "path": "docs/security/mitre-attack-mapping.md",
+    "title": "MITRE ATT&CK Mapping",
+    "size": 321
+  },
+  {
+    "path": "docs/security/vulnerability-management.md",
+    "title": "Gestión de vulnerabilidades",
+    "size": 337
+  },
+  {
+    "path": "docs/compliance/compliance-register.md",
+    "title": "Registro de cumplimiento",
+    "size": 459
+  },
+  {
+    "path": "docs/compliance/nist-csf-2.0-mapping.md",
+    "title": "NIST CSF 2.0 Mapping",
+    "size": 539
+  },
+  {
+    "path": "docs/compliance/iso-27001-mapping.md",
+    "title": "ISO 27001 Mapping",
+    "size": 314
+  },
+  {
+    "path": "docs/compliance/pci-dss-4.0.1-mapping.md",
+    "title": "PCI DSS Mapping",
+    "size": 371
+  },
+  {
+    "path": "docs/compliance/ssdf-mapping.md",
+    "title": "NIST SSDF Mapping",
+    "size": 446
+  },
+  {
+    "path": "docs/compliance/samm-assessment.md",
+    "title": "OpenSAMM Assessment",
+    "size": 422
+  },
+  {
+    "path": "docs/compliance/bsimm-benchmark.md",
+    "title": "BSIMM Benchmark",
+    "size": 332
+  },
+  {
+    "path": "docs/isms/isms-overview.md",
+    "title": "SGSI Overview",
+    "size": 488
+  },
+  {
+    "path": "docs/isms/control-catalog.md",
+    "title": "Catálogo de controles",
+    "size": 1044
+  },
+  {
+    "path": "docs/isms/statement-of-applicability.md",
+    "title": "Declaración de aplicabilidad",
+    "size": 325
+  },
+  {
+    "path": "docs/isms/evidence-register.md",
+    "title": "Registro de evidencias",
+    "size": 984
+  },
+  {
+    "path": "docs/isms/risk-assessment-methodology.md",
+    "title": "Metodología de riesgos",
+    "size": 343
+  },
+  {
+    "path": "docs/isms/risk-treatment-plan.md",
+    "title": "Plan de tratamiento de riesgos",
+    "size": 335
+  },
+  {
+    "path": "docs/agents/agent-governance.md",
+    "title": "Gobierno de agentes",
+    "size": 403
+  },
+  {
+    "path": "docs/agents/ai-context-map.md",
+    "title": "AI Context Map",
+    "size": 744
+  },
+  {
+    "path": "docs/agents/context-memory.md",
+    "title": "Memoria de contexto",
+    "size": 450
+  },
+  {
+    "path": "docs/agents/agent-log.md",
+    "title": "Bitácora de agentes",
+    "size": 342
+  },
+  {
+    "path": "docs/agents/agent-handoff.md",
+    "title": "Handoff de agentes",
+    "size": 345
+  },
+  {
+    "path": "docs/agents/agent-boundaries.md",
+    "title": "Límites de agentes",
+    "size": 520
+  },
+  {
+    "path": "docs/governance/contribution-log.md",
+    "title": "Bitácora de contribuciones",
+    "size": 337
+  },
+  {
+    "path": "docs/governance/decision-log.md",
+    "title": "Bitácora de decisiones",
+    "size": 321
+  },
+  {
+    "path": "docs/governance/risk-register.md",
+    "title": "Registro de riesgos",
+    "size": 356
+  },
+  {
+    "path": "docs/governance/issue-register.md",
+    "title": "Registro de issues",
+    "size": 302
+  },
+  {
+    "path": "docs/governance/technology-selection-policy.md",
+    "title": "Política FOSS/OSS",
+    "size": 699
+  },
+  {
+    "path": "docs/devops/git-flow.md",
+    "title": "Git Flow",
+    "size": 379
+  },
+  {
+    "path": "docs/devops/branch-protection.md",
+    "title": "Branch Protection",
+    "size": 427
+  },
+  {
+    "path": "docs/devops/commit-convention.md",
+    "title": "Conventional Commits",
+    "size": 319
+  },
+  {
+    "path": "docs/devops/release-management.md",
+    "title": "Gestión de releases",
+    "size": 208
+  },
+  {
+    "path": "docs/operations/operations-runbook.md",
+    "title": "Runbook",
+    "size": 266
+  },
+  {
+    "path": "docs/operations/incident-management.md",
+    "title": "Gestión de incidentes",
+    "size": 433
+  },
+  {
+    "path": "docs/operations/backup-restore.md",
+    "title": "Backup y restore",
+    "size": 270
+  },
+  {
+    "path": "docs/privacy/privacy-by-design.md",
+    "title": "Privacidad por diseño",
+    "size": 312
+  },
+  {
+    "path": "docs/privacy/data-classification.md",
+    "title": "Clasificación de datos",
+    "size": 467
+  },
+  {
+    "path": "docs/documentation/documentation-standard.md",
+    "title": "Estándar de documentación",
+    "size": 421
+  },
+  {
+    "path": "docs/documentation/mkdocs-standard.md",
+    "title": "MkDocs Standard",
+    "size": 372
+  },
+  {
+    "path": "docs/documentation/obsidian-standard.md",
+    "title": "Obsidian Standard",
+    "size": 412
+  },
+  {
+    "path": "docs/documentation/docusaurus-option.md",
+    "title": "Docusaurus Option",
+    "size": 398
+  },
+  {
+    "path": "docs/adr/0001-architecture-style.md",
+    "title": "ADR-0001 Architecture Style",
+    "size": 465
+  },
+  {
+    "path": "docs/adr/0002-database-selection.md",
+    "title": "ADR-0002 Database Selection",
+    "size": 363
+  },
+  {
+    "path": "docs/adr/0003-authentication-strategy.md",
+    "title": "ADR-0003 Authentication Strategy",
+    "size": 375
+  }
+]

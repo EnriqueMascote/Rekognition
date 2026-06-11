@@ -1,0 +1,78 @@
+site_name: Secure Software Project Template
+site_description: Plantilla institucional para desarrollo seguro de software
+site_author: Equipo de Desarrollo
+repo_url: https://github.com/example/secure-software-project-template
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Inicio:
+      - Guía: GUIDE.md
+      - Mapa de contenido: MOC.md
+      - Inicio del proyecto: 00-init.md
+      - Visión: 01-vision.md
+      - Alcance: 02-scope.md
+      - Contexto: 03-project-context.md
+  - Desarrollo:
+      - SRS: 04-srs.md
+      - Backlog: 05-backlog.md
+      - WBS: 06-wbs.md
+      - Implementation Brief: 07-implementation-brief.md
+      - Especificación Funcional: 08-functional-spec.md
+      - Arquitectura Técnica: 09-technical-architecture.md
+      - Modelo de Datos: 10-data-model.md
+      - Contratos API: 11-api-contracts.md
+  - Estándares:
+      - API: api/openapi-standard.md
+      - Programación: coding/programming-standard.md
+      - Diseño: design/design-system.md
+      - Calidad: quality/quality-gates.md
+  - Seguridad:
+      - Modelo de Seguridad: 12-security-model.md
+      - Threat Model: security/threat-model.md
+      - OWASP ASVS: security/asvs-checklist.md
+      - MITRE ATT&CK: security/mitre-attack-mapping.md
+  - QA:
+      - Testing Strategy: testing/testing-strategy.md
+      - QA Strategy: qa/qa-strategy.md
+      - Traceability Matrix: qa/traceability-matrix.md
+  - DevSecOps:
+      - CI/CD: devsecops/ci-cd-standard.md
+      - Pipeline Security: devsecops/pipeline-security.md
+      - Release Policy: release/release-policy.md
+  - SGSI:
+      - Overview: isms/isms-overview.md
+      - Catálogo de Controles: isms/control-catalog.md
+      - SoA: isms/statement-of-applicability.md
+      - Evidencias: isms/evidence-register.md
+  - Agentes IA:
+      - Gobierno: agents/agent-governance.md
+      - Context Map: agents/ai-context-map.md
+      - Memoria: agents/context-memory.md
+      - Bitácora: agents/agent-log.md

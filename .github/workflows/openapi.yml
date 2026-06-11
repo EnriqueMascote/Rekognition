@@ -1,0 +1,20 @@
+name: OpenAPI Validation
+
+on:
+  pull_request:
+    paths:
+      - 'openapi.yaml'
+      - 'openapi.yml'
+      - 'openapi.json'
+      - 'docs/api/**'
+
+permissions:
+  contents: read
+
+jobs:
+  openapi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate OpenAPI placeholder
+        run: echo "Configure Spectral or an equivalent OpenAPI validator"
